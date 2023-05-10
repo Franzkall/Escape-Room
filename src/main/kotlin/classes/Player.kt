@@ -1,8 +1,8 @@
-open class Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Gegenstand>) {
+package classes
 
+import classes.items.Item
 
-
-
+open class Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Item>) {
 
     open fun introduce() {
 
@@ -17,9 +17,11 @@ open class Player(val age: Int, val name: String, val profession: String, val ge
         println("              (John):Ich sehe nach ob ich eine Lösung finde...")
         Thread.sleep(6000)
 
-
-
-
-
+    }
+    
+    fun hasItem(gegenstaende : List<Item>, item : Item) : Boolean {
+        val searchedItem : Item = item
+        
+        return gegenstaende.contains(searchedItem)
     }
 }

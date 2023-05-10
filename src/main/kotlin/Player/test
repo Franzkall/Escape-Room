@@ -15,7 +15,7 @@ fun main() {
     val messer = Messer()
     val schluessel = Schluessel()
 
-    val playerOne = Player(41, "John Xmas", "Spezial Einheit (Militär)", listOf(streichhoelzer, messer, schluessel))
+    val playerOne = classes.Player(41, "John Xmas", "Spezial Einheit (Militär)", listOf(streichhoelzer, messer, schluessel))
     playerOne.introduce()
 
     println(" ------------------            Willkommen                      ----------------")
@@ -73,8 +73,8 @@ fun main() {
         println("Herzlichen Glückwunsch! Du hast es aus dem Raum der Vergessenen Götter geschafft!")
     }
 }
-//Player.kt:
-open class Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Gegenstand>) {
+//classes.Player.kt:
+open class classes.Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Gegenstand>) {
 
 
 

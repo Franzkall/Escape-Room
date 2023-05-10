@@ -1,3 +1,9 @@
+import classes.Player
+import classes.items.Key
+import classes.items.Knife
+import classes.items.Matches
+import classes.puzzles.Puzzle
+
 fun main() {
     println("....                  (Girl):Wo bin ich...")
     Thread.sleep(3000)
@@ -11,14 +17,14 @@ fun main() {
     val cyan = "\u001B[36m"
     val reset = "\u001B[0m"
 
-    val streichhoelzer = Streichhoelzer()
-    val messer = Messer()
-    val schluessel = Schluessel()
+    val streichhoelzer : Matches = Matches()
+    val messer : Knife = Knife()
+    val schluessel : Key = Key()
 
     val playerOne = Player(41, "John Xmas", "Spezial Einheit (Militär)", listOf(streichhoelzer, messer, schluessel))
     playerOne.introduce()
 
-    println(" ------------------            Willkommen                      ----------------")
+    println("------------------            Willkommen                      ----------------")
     Thread.sleep(4000)
     println("Du befindest dich auf unbekannterweise in der Raum der..Vergessene Götter")
 
@@ -57,7 +63,7 @@ fun main() {
     while (geloest < 3) {
         println("Wähle ein Rätsel aus: 1, 2 oder 3")
         val raetselNummer = readLine()?.toIntOrNull() ?: continue
-        val raetsel: Raetsel = when (raetselNummer) {
+        val raetsel: Puzzle = when (raetselNummer) {
             1 -> raetsel1
             2 -> raetsel2
             3 -> raetsel3
@@ -73,42 +79,8 @@ fun main() {
         println("Herzlichen Glückwunsch! Du hast es aus dem Raum der Vergessenen Götter geschafft!")
     }
 }
-//Player.kt:
-open class Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Gegenstand>) {
 
-
-
-
-
-    open fun introduce() {
-
-        println("              Hallo...")
-        Thread.sleep(3000)
-        println("              mein Name ist $name")
-        Thread.sleep(3000)
-        println("...           Wo zum Teufel sind wir.....God dam....")
-        Thread.sleep(3000)
-        println("              Unknow girl:...hallo John         ....es ist so Dunkel hier..und ich kann mich nicht bewegen..")
-        Thread.sleep(3000)
-        println("              (John):Ich sehe nach ob ich eine Lösung finde...")
-        Thread.sleep(6000)
-
-
-
-
-
-    }
-}
-Rätselmath.kt:
-open class Raetsel(val nummer: Int, val schwierigkeitsgrad: Int) {
-    open fun frageStellen() {}
-    open fun antwortPruefen(input: String): Boolean = false
-    open fun loesen(): Boolean {
-        frageStellen()
-        val antwort = readLine()?.trim() ?: return false
-        return antwortPruefen(antwort)
-    }
-}
+// Rätselmath.kt:
 
 class MathematikRaetsel(nummer: Int, schwierigkeitsgrad: Int, private val frage: String, private val loesung: Int) : Raetsel(nummer, schwierigkeitsgrad) {
     override fun frageStellen() {
@@ -130,11 +102,18 @@ class TextRaetsel(nummer: Int, schwierigkeitsgrad: Int, private val frage: Strin
     }
 }
 
-//Items.kt:
-open class Gegenstand(val name: String)
+val streichhoelzer : Matches = Matches()
 
-open class Streichhoelzer : Gegenstand("Streichhölzer")
+val messer : Knife = Knife()
 
-open class Messer : Gegenstand("Messer")
+val schluessel : Key = Key()
 
-open class Schluessel : Gegenstand("Schlüssel")
+//
+////Items.kt:
+//open class Gegenstand(val name: String)
+//
+//open class Streichhoelzer : Gegenstand("Streichhölzer")
+//
+//open class Messer : Gegenstand("Messer")
+//
+//open class Schluessel : Gegenstand("Schlüssel")

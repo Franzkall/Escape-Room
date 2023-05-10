@@ -1,3 +1,5 @@
+package classes.puzzles
+
 open class Puzzle(val question: String, val answer: String) {
-    // Eigenschaften des Rätsels
+	// Eigenschaften des Rätsels
 }
