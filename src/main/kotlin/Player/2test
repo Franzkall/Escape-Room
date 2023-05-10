@@ -1,0 +1,147 @@
+open class Character(val name: String, val age: Int, val occupation: String) {
+    // Eigenschaften des Charakters
+}
+
+class JohnXmas : Character("John Xmas", 41, "Soldat") {
+    // Erbt Eigenschaften von Character-Klasse
+}
+//oben Charakter Klasse.
+
+//class Room(val name: String) {
+      // Eigenschaften des Raums
+      private var isLocked = true
+
+      // Funktion zum Entsperren des Raums
+      fun unlockRoom(character: Character) {
+          if (character.occupation == "Soldat") {
+              println("Der Raum '${name}' wurde von ${character.name} entsperrt.")
+              isLocked = false
+          } else {
+              println("Du hast nicht die richtige Fähigkeit, um diesen Raum zu entsperren.")
+          }
+      }
+
+      // Funktion, um mit dem Raum zu interagieren
+      fun interactRoom(character: Character) {
+          if (isLocked) {
+              println("Der Raum '${name}' ist verschlossen.")
+              unlockRoom(character)
+          } else {
+              println("Du hast den Raum '${name}' bereits entsperrt.")
+          }
+      }
+  }
+
+  // Beispiel für die Verwendung der Room-Klasse
+  fun main() {
+      val johnXmas = JohnXmas()
+      val verlasseneGoetter = Room("Verlassene Götter")
+
+      verlasseneGoetter.interactRoom(johnXmas) // Charakter entsperrt den Raum
+      verlasseneGoetter.interactRoom(johnXmas) // Raum ist bereits entsperrt
+  }
+//open class Item(val name: String) {
+      // Eigenschaften des Gegenstands
+  }
+
+  class Matches : Item("Streichhölzer") {
+      // Eigenschaften und Funktionen der Streichholzklasse
+      fun use(character: Character) {
+          println("${character.name} benutzt die Streichhölzer.")
+      }
+  }
+
+  class Knife : Item("Messer") {
+      // Eigenschaften und Funktionen der Messerklasse
+      fun use(character: Character) {
+          println("${character.name} benutzt das Messer.")
+      }
+  }
+
+  class Key : Item("Schlüssel") {
+      // Eigenschaften und Funktionen der Schlüsselklasse
+      fun use(character: Character, room: Room) {
+          room.unlockRoom(character)
+      }
+  }
+//open class Puzzle(val question: String, val answer: String) {
+      // Eigenschaften des Rätsels
+  }
+
+  class Puzzle1 : Puzzle("Was wird nass, während es trocknet?", "Handtuch") {
+      // Eigenschaften und Funktionen des ersten Rätsels
+      fun solve(character: Character) : Boolean {
+          if (character.hasMatches) {
+              println("Das Streichholz ist angezündet und das Rätsel wurde gelöst!")
+              return true
+          } else {
+              println("Du brauchst Streichhölzer, um dieses Rätsel zu lösen.")
+              return false
+          }
+      }
+  }
+
+  class Puzzle2 : Puzzle("Ich bin groß, wenn ich stehe, aber ich bin klein, wenn ich liege. Was bin ich?", "Kerze") {
+      // Eigenschaften und Funktionen des zweiten Rätsels
+      fun solve(character: Character) : Boolean {
+          if (character.hasKnife) {
+              println("Das Messer wurde verwendet und das Rätsel wurde gelöst!")
+              return true
+          } else {
+              println("Du brauchst ein Messer, um dieses Rätsel zu lösen.")
+              return false
+          }
+      }
+  }
+
+  class Puzzle3 : Puzzle("Ich habe Schlüssel, aber keine Schlösser. Was bin ich?", "Tastatur") {
+      // Eigenschaften und Funktionen des dritten Rätsels
+      fun solve(character: Character) : Boolean {
+          if (character.hasKey) {
+              println("Du hast den Schlüssel gefunden und das Rätsel wurde gelöst!")
+              return true
+          } else {
+              println("Du brauchst den Schlüssel, um dieses Rätsel zu lösen.")
+              return false
+          }
+      }
+  }
+//fun main:
+fun main() {
+    val john = Character("John Xmas", 41, "Soldat")
+    val room = Room("Verlassene Götter")
+
+    val matches = Matches()
+    val knife = Knife()
+    val key = Key()
+
+    val riddle1 = Riddle1(matches)
+    val riddle2 = Riddle2(knife)
+    val riddle3 = Riddle3(key)
+
+    var solvedRiddles = 0
+    var currentRiddle: Riddle? = null
+
+    println("Willkommen bei Escape Room: ${room.name}!")
+
+    while (solvedRiddles < 3) {
+        when (solvedRiddles) {
+            0 -> currentRiddle = riddle1
+            1 -> currentRiddle = riddle2
+            2 -> currentRiddle = riddle3
+        }
+
+        println("Du stehst vor einem Rätsel. Löse es, um weiterzukommen.")
+        println(currentRiddle.description)
+
+        if (currentRiddle.solve()) {
+            solvedRiddles++
+            println("Richtig! Du hast ${solvedRiddles} von 3 Rätseln gelöst.")
+        } else {
+            println("Leider falsch. Du musst von vorne beginnen.")
+            solvedRiddles = 0
+        }
+    }
+
+    println("Herzlichen Glückwunsch! Du hast alle Rätsel gelöst und bist aus dem Raum ${room.name} entkommen.")
+}

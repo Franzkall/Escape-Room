@@ -4,19 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c66d264-de10-4e22-bc74-41f084677524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Riddleslösung.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rätsel2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/rätsel3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9c66d264-de10-4e22-bc74-41f084677524" name="Changes" comment="rätsel2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GameLogik.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Messer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player/Charakter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Room1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RätselLogik.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Schlüssel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Streichholz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Items.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Items.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player/test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Riddleslösung.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player/2test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Rätsel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rätsel2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rätsel3.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +41,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -50,6 +65,11 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="Player" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -73,6 +93,57 @@
       <option name="presentableId" value="Default" />
       <updated>1683029777809</updated>
     </task>
+    <task id="LOCAL-00001" summary="main">
+      <created>1683204149497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204149497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rätsel.kt">
+      <created>1683204179064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204179064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="game">
+      <created>1683204200940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204200940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="player">
+      <created>1683204223237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204223237</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rätsel2">
+      <created>1683204240171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204240171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rätsel2">
+      <created>1683204308456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204308456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main" />
+    <MESSAGE value="rätsel.kt" />
+    <MESSAGE value="game" />
+    <MESSAGE value="player" />
+    <MESSAGE value="rätsel2" />
+    <option name="LAST_COMMIT_MESSAGE" value="rätsel2" />
   </component>
 </project>
