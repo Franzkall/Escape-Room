@@ -7,11 +7,6 @@
     <list default="true" id="9c66d264-de10-4e22-bc74-41f084677524" name="Changes" comment="Baustelle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/GameLogic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GameLogic.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/items/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/items/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/items/Key.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/items/Key.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/items/Knife.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/items/Knife.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/items/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/items/Matches.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/Puzzle1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/Puzzle1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

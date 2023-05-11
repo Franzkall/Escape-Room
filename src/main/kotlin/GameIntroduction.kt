@@ -15,7 +15,7 @@ fun gameIntroduction() : Player
 	val blade : Knife = Knife()
 	val key : Key = Key()
 	
-	val playerOne = Player(41, "John Xmas", "Spezial Einheit (Militär)", listOf(match, blade, key))
+	val playerOne = Player(41, "John Xmas", "Soldat", listOf(match, blade, key))
 	playerOne.introduce()
 	
 	println("------------------            Willkommen                      ----------------")
