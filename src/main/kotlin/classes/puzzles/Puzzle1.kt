@@ -7,7 +7,7 @@ class Puzzle1 : Puzzle("Was wird nass, während es trocknet?", "Handtuch") {
 	// Eigenschaften und Funktionen des ersten Rätsels
 	fun solve(character: Player) : Boolean {
 		val streichholz : Matches = Matches()
-		if (character.hasItem(character.gegenstaende, streichholz)) {
+		if (character.hasItem(character.items, streichholz)) {
 			println("Das Streichholz ist angezündet und das Rätsel wurde gelöst!")
 			return true
 		} else {

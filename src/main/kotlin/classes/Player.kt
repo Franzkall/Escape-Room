@@ -2,7 +2,7 @@ package classes
 
 import classes.items.Item
 
-open class Player(val age: Int, val name: String, val profession: String, val gegenstaende: List<Item>) {
+open class Player(val age: Int, val name: String, val profession: String, val items: List<Item>) {
 
     open fun introduce() {
 
@@ -19,9 +19,9 @@ open class Player(val age: Int, val name: String, val profession: String, val ge
 
     }
     
-    fun hasItem(gegenstaende : List<Item>, item : Item) : Boolean {
+    fun hasItem(items1 : List<Item>, item : Item) : Boolean {
         val searchedItem : Item = item
         
-        return gegenstaende.contains(searchedItem)
+        return items1.contains(searchedItem)
     }
 }

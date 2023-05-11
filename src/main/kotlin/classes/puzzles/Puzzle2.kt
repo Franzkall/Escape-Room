@@ -7,7 +7,7 @@ class Puzzle2 : Puzzle("Ich bin groß, wenn ich stehe, aber ich bin klein, wenn 
 	// Eigenschaften und Funktionen des zweiten Rätsels
 	fun solve(character: Player) : Boolean {
 		val knife : Knife = Knife()
-		if (character.hasItem(character.gegenstaende,knife)) {
+		if (character.hasItem(character.items, knife)) {
 			println("Das Messer wurde verwendet und das Rätsel wurde gelöst!")
 			return true
 		} else {
