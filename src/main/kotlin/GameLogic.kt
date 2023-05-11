@@ -1,7 +1,10 @@
+import classes.Player
 import classes.puzzles.CalculationPuzzle
 import classes.puzzles.TextPuzzle
 
-fun gameLogic() {
+fun gameLogic(player : Player) {
+	println()
+	
 	val calculationPuzzle1 = CalculationPuzzle(1,1, "Was ist die Wurzel aus 144?", 12)
 	val textPuzzle = TextPuzzle(2,1, "Ich kann fliegen, aber keinen Flügel habe ich. Ich kann singen, aber ich habe keine Stimme. Was bin ich?", "Ein Brief")
 	val calculationPuzzle2 = CalculationPuzzle(3,3, "Was ist das nächste Zahl in dieser Folge? 1, 1, 2, 3, 5, 8, ...", 13)

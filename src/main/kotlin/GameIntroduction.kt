@@ -4,7 +4,7 @@ import classes.items.Knife
 import classes.items.Matches
 import utils.*
 
-fun gameIntroduction()
+fun gameIntroduction() : Player
 {
 	println("....                  (Girl):Wo bin ich...")
 	Thread.sleep(3000)
@@ -47,4 +47,6 @@ fun gameIntroduction()
 	Thread.sleep(3000)
 	
 	println("-------------------------------Viel glück--------------------")
+	
+	return playerOne
 }

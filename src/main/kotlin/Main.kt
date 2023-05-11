@@ -1,4 +1,4 @@
 fun main() {
-    gameIntroduction()
-    gameLogic()
+    var player = gameIntroduction()
+    gameLogic(player)
 }
