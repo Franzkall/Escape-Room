@@ -5,7 +5,10 @@ import classes.rooms.Room
 
 class Key : Item("Schlüssel") {
 	// Eigenschaften und Funktionen der Schlüsselklasse
-	fun use(character: Player, room: Room) {
-		room.unlockRoom(character)
+	override fun use(character: Player,room: Room?) {
+
+		room!!.unlockRoom(character)
+
 	}
+
 }

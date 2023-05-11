@@ -18,4 +18,3 @@ class Puzzle1 : Puzzle("Was wird nass, während es trocknet?", "Handtuch") {
 }
 
 
-// println("Hey John )

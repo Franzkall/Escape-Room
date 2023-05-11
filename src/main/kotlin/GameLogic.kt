@@ -3,7 +3,9 @@ import classes.puzzles.CalculationPuzzle
 import classes.puzzles.TextPuzzle
 
 fun gameLogic(player : Player) {
-	println()
+	println("Ich werde ein Streichholz anzünden...")
+	val match = player.items[0]
+	match.use(player,null)
 	
 	val calculationPuzzle1 = CalculationPuzzle(1,1, "Was ist die Wurzel aus 144?", 12)
 	val textPuzzle = TextPuzzle(2,1, "Ich kann fliegen, aber keinen Flügel habe ich. Ich kann singen, aber ich habe keine Stimme. Was bin ich?", "Ein Brief")
