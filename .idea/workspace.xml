@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c66d264-de10-4e22-bc74-41f084677524" name="Changes" comment="rätsel2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GameLogik.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Messer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player/Charakter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Room1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Rätsel3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RätselLogik.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Schlüssel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Streichholz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Items.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Items.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Items.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player/test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Riddleslösung.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player/2test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Rätsel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rätsel2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rätsel3.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683204308456</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rätsel2">
+      <created>1683721912955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683721912955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
