@@ -107,7 +107,7 @@ class JohnXmas : Character("John Xmas", 41, "Soldat") {
       }
   }
 //fun main:
-fun main() {
+fun main()
     val john = Character("John Xmas", 41, "Soldat")
     val room = Room("Verlassene Götter")
 

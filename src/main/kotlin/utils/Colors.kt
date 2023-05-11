@@ -1,3 +1,5 @@
+
+//Dieser Teil des Codes definiert Farbkonstanten für die Verwendung in der Konsolenausgabe. Die Konstanten enthalten Escape-Sequenzen für die jeweilige Farbe.
 package utils
 
 val red = "\u001B[31m"

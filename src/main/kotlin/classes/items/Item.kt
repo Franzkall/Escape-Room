@@ -7,7 +7,6 @@ open class Item(val name: String) {
 
 	// Eigenschaften des Gegenstands
     open fun use(character:Player,room: Room?) {
-        println("Fick dich")
 
     }
 }

@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9c66d264-de10-4e22-bc74-41f084677524" name="Changes" comment="Baustelle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GameIntroduction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GameIntroduction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/GameLogic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GameLogic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player/2test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player/2test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player/Charakter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/items/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/items/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/CalculationPuzzle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/CalculationPuzzle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/PuzzleLogic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/PuzzleLogic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/TextPuzzle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/puzzles/TextPuzzle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utils/Colors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Colors.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="Player" />
@@ -126,6 +137,17 @@
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main" />
