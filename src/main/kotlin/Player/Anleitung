@@ -1,0 +1,32 @@
+//Einleitung
+
+  Hallo, ich freue mich, Ihnen meine Escape Room-Anwendung zu präsentieren.
+  Bei dieser Anwendung handelt es sich um ein interaktives Spiel, bei dem der Spieler Rätsel lösen und Gegenstände verwenden muss, um aus einem Raum zu entkommen.
+  Funktionalitäten
+
+  Meine Anwendung bietet verschiedene Funktionen, darunter das Lösen von Rätseln und die Verwendung von Gegenständen.
+  Der Spieler muss verschiedene Rätsel lösen, um aus dem Raum zu entkommen.
+  Die Verwendung von Gegenständen ist notwendig, um bestimmte Rätsel zu lösen und das Spiel fortzusetzen.
+  Technologie
+
+  Ich habe meine Anwendung mit Kotlin entwickelt.
+  Als IDE habe ich Intellij verwendet.
+  Demonstration
+
+  Ich zeige Ihnen jetzt eine kurze Demonstration meiner Anwendung.
+  Wie Sie sehen können, navigiere ich durch den Raum und versuche, Rätsel zu lösen und Gegenstände zu verwenden.
+  Fazit
+
+  Zusammenfassend kann ich sagen, dass es viel Spaß gemacht hat, diese Anwendung zu entwickeln.
+  Ich hoffe, dass Ihnen meine Präsentation gefallen hat und dass Sie meine Anwendung ausprobieren werden.
+
+  //Klassen
+
+    Room: Diese Klasse repräsentiert einen Raum im Escape Room. Sie enthält Informationen wie den Namen des Raums, eine Beschreibung und eine Liste von Rätseln, die in diesem Raum gelöst werden müssen.
+    Puzzle: Diese Klasse repräsentiert ein Rätsel im Escape Room. Sie enthält Informationen wie die Fragestellung des Rätsels, eine Liste von Hinweisen und die Lösung.
+    Inventory: Diese Klasse repräsentiert das Inventar des Spielers. Sie enthält eine Liste von Gegenständen, die der Spieler im Laufe des Spiels gesammelt hat.
+    Funktionen
+
+    solvePuzzle(): Diese Funktion wird aufgerufen, wenn der Spieler ein Rätsel löst. Sie überprüft, ob die Antwort des Spielers korrekt ist, und aktualisiert den Spielstand entsprechend.
+    useItem(): Diese Funktion wird aufgerufen, wenn der Spieler versucht, einen Gegenstand zu verwenden. Sie überprüft, ob der Gegenstand an der richtigen Stelle eingesetzt wird und aktualisiert den Spielstand entsprechend.
+    moveToRoom(): Diese Funktion wird aufgerufen, wenn der Spieler den Raum wechselt. Sie überprüft, ob der Spieler alle Rätsel im aktuellen Raum gelöst hat und ob er die benötigten Gegenstände hat, um in den nächsten Raum zu gelangen.
